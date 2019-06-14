@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">远程支付</string>
+    <string name="produceButton">生成订单</string>
+    <string name="zero">0</string>
+    <string name="todo">TODO</string>
+    <string name="category">商品</string>
+    <string name="price">单价</string>
+    <string name="amount">数量</string>
+    <string name="single_total_price">总价</string>
+    <string name="total_price">总价格：</string>
+    <string name="transfer">开始传输</string>
+    <string name="finish">返回</string>
+    <string name="_0">0</string>
+</resources>

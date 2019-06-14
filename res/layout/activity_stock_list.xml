@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360sp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StockList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="180sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180sp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    app:srcCompat="@mipmap/apple" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_apple"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zero"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton_apple_up"
+                        android:layout_width="40sp"
+                        android:layout_height="40sp"
+                        android:contentDescription="@string/todo"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@mipmap/uparrow" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_apple_down"
+                        android:layout_width="40sp"
+                        android:layout_height="40sp"
+                        android:contentDescription="@string/todo"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@mipmap/downarrow" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180sp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    app:srcCompat="@mipmap/pear" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_pear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zero"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton_pear_up"
+                        android:layout_width="40sp"
+                        android:layout_height="40sp"
+                        android:contentDescription="@string/todo"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@mipmap/uparrow" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_pear_down"
+                        android:layout_width="40sp"
+                        android:layout_height="40sp"
+                        android:contentDescription="@string/todo"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@mipmap/downarrow" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="180sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180sp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    app:srcCompat="@mipmap/banana" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_banana"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zero"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton_banana_up"
+                        android:layout_width="40sp"
+                        android:layout_height="40sp"
+                        android:contentDescription="@string/todo"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@mipmap/uparrow" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_banana_down"
+                        android:layout_width="40sp"
+                        android:layout_height="40sp"
+                        android:contentDescription="@string/todo"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@mipmap/downarrow" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180sp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/todo"
+                    app:srcCompat="@mipmap/watermelon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="100sp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_watermelon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zero"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton_watermelon_up"
+                        android:layout_width="40sp"
+                        android:layout_height="40sp"
+                        android:contentDescription="@string/todo"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@mipmap/uparrow" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_watermelon_down"
+                        android:layout_width="40sp"
+                        android:layout_height="40sp"
+                        android:contentDescription="@string/todo"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@mipmap/downarrow" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/retButton"
+            android:layout_width="120sp"
+            android:layout_height="70sp"
+            android:background="#2196F3"
+            android:text="@string/produceButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    </LinearLayout>
+</LinearLayout>
